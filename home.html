@@ -1,0 +1,10 @@
+<template name="home">
+  <script>compilegroupnames();</script>
+  <h1 id="logo">Facer</h1>
+  <div id="newgroup" onclick="newgroup();">New Group +</div>
+  <div id="grouplist">
+    {{#each groupnames}}
+      <div class="groupdiv"></div>
+    {{/each}}
+  </div>
+</template>

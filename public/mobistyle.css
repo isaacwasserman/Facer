@@ -1,0 +1,30 @@
+
+#faceimg {
+  padding-left: 0px;
+  height: auto;
+  width: 90%;
+  top: 0px;
+}
+
+#facepane {
+  position: fixed;
+  top: auto;
+  bottom: 0px;
+  height: 30%;
+  max-width: none;
+  width: 100%;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.icon {
+  display:inline-block;
+  width: auto;
+  height: 100%;
+  margin: 0px;
+}
+
+.icon:hover {
+  width: auto;
+}

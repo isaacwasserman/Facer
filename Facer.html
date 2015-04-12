@@ -1,0 +1,35 @@
+<head>
+  <title>Facer</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<!--  <meta name='viewport' content='initial-scale=1.0, user-scalable=no, maximum-scale=0.9' media='(device-height: 568px)'>-->
+  <script src="client.js"></script>
+  <link rel="stylesheet" href="mobistyle.css" media="(max-width: 975px)"/>
+<!--  <link rel="stylesheet" href="catsize.css" media="(max-width: 975px) and (min-width: 740px)"/>-->
+  
+  <link rel="stylesheet" href="formsize.css" media="(max-width: 540px)"/>
+  <script src="login.js"></script>
+  <script src="dashboard.js"></script>
+</head>
+
+<body>
+</body>
+
+<template name="group">
+  <style>body {display: none;}</style>
+  <div id="facepane">
+    <img class="icon" src="1.svg" onclick="img(1)"/>
+    <img class="icon" src="2.svg" onclick="img(2)"/>
+    <img class="icon" src="3.svg" onclick="img(3)"/>
+    <img class="icon" src="4.svg" onclick="img(4)"/>
+    <img class="icon" src="5.svg" onclick="img(5)"/>
+  </div>
+  <div id="face">
+<!--    <h1 id="logo">Facer</h1>-->
+    <iframe id="loader" src="/loader"></iframe>
+    <img id="faceimg" src=""/>
+  </div>
+  <script>
+  setTimeout(function(){
+    init();
+  }, 1000)</script>
+</template>
